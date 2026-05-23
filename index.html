@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <meta name="description" content="RЯ-AI (Muhaajir AI) - AI Chatbot alami dengan support 9+ provider (OpenAI, Claude, Gemini, Perplexity, Mistral, xAI). Gratis, aman, dan pribadi.">
-    <meta name="keywords" content="AI chatbot, Muhaajir AI, RЯ-AI, OpenAI, Claude, Gemini, Perplexity, AI gratis, chat AI online">
-    <meta name="author" content="Muhaajir AI">
+    <meta name="description" content="RAIA — Reflecting Tomorrow. AI Chatbot dengan support 9+ provider (OpenAI, Claude, Gemini, Perplexity, Mistral, xAI). Gratis, aman, dan privasi.">
+    <meta name="keywords" content="RAIA, AI chatbot, Muhaajir AI, OpenAI, Claude, Gemini, Perplexity, AI gratis, chat AI online, The Symmetry of Intelligence">
+    <meta name="author" content="Muhaajir">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#020617">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ry-ai.muhaajir.com/">
-    <meta property="og:title" content="RЯ-AI - Muhaajir AI Chatbot">
-    <meta property="og:description" content="AI Chatbot dengan 9+ provider. Gratis, aman, pribadi.">
+    <meta property="og:url" content="https://hajirmuhaajir.github.io/RAIA">
+    <meta property="og:title" content="RAIA — Reflecting Tomorrow">
+    <meta property="og:description" content="RAIA: The Symmetry of Intelligence. AI Chatbot dengan 9+ provider. Gratis, aman, pribadi.">
     <meta property="og:image" content="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://ry-ai.muhaajir.com/">
-    <meta property="twitter:title" content="RЯ-AI - Muhaajir AI Chatbot">
-    <meta property="twitter:description" content="AI Chatbot dengan 9+ provider. Gratis, aman, pribadi.">
+    <meta property="twitter:url" content="https://hajirmuhaajir.github.io/RAIA">
+    <meta property="twitter:title" content="RAIA — Reflecting Tomorrow">
+    <meta property="twitter:description" content="RAIA: The Symmetry of Intelligence. AI Chatbot dengan 9+ provider. Gratis, aman, pribadi.">
     <meta property="twitter:image" content="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp">
     <link rel="icon" type="image/webp" href="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp">
     <link rel="apple-touch-icon" href="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp">
-    <title>RЯ-AI — Muhaajir AI Chatbot Premium</title>
+    <title>RAIA — Reflecting Tomorrow</title>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            "name": "RЯ-AI - Muhaajir AI",
-            "description": "AI Chatbot dengan support 9+ provider AI populer",
+            "name": "RAIA",
+            "description": "RAIA: Reflecting Tomorrow. AI Chatbot dengan support 9+ provider AI populer.",
             "applicationCategory": "ProductivityApplication",
             "operatingSystem": "All",
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
@@ -217,6 +217,13 @@
         [data-theme="light"] .logo-img {
             filter: invert(0.9);
         }
+        .brand-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            min-width: 0;
+            overflow: hidden;
+        }
         .brand-title {
             font-size: 1.1rem;
             font-weight: 700;
@@ -224,6 +231,14 @@
             display: flex;
             align-items: center;
             gap: 6px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .brand-slogan {
+            font-size: 0.6rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.04em;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -1391,9 +1406,12 @@
             <button class="hamburger" id="hamburgerBtn" aria-label="Toggle sidebar" title="Toggle Sidebar">
                 <span></span><span></span><span></span>
             </button>
-            <a class="logo-link" href="#" aria-label="Muhaajir AI Home">
-                <img src="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp" alt="Muhaajir AI Logo" class="logo-img" width="34" height="34" loading="eager">
-                <span class="brand-title">Muhaajir AI <span class="badge">RЯ-AI</span></span>
+            <a class="logo-link" href="#" aria-label="RAIA Home">
+                <img src="https://i.postimg.cc/JztFxsRH/hajir-logo-putih.webp" alt="RAIA Logo" class="logo-img" width="34" height="34" loading="eager">
+                <div class="brand-info">
+                    <span class="brand-title">RAIA <span class="badge">PROD</span></span>
+                    <span class="brand-slogan">Reflecting Tomorrow.</span>
+                </div>
             </a>
         </div>
         <div class="header-right">
@@ -1502,13 +1520,13 @@
             <div class="messages-container" id="messagesContainer">
                 <div class="welcome-center" id="welcomeScreen">
                     <div class="welcome-icon">✦</div>
-                    <h2 class="welcome-title">Selamat Datang di Muhaajir AI</h2>
-                    <p class="welcome-subtitle">Asisten AI modular premium Anda. Konfigurasikan API credentials di panel kiri, pilih model favorit, dan mulailah berinteraksi dengan kecerdasan buatan masa depan. <strong>RЯ-AI</strong> siap membantu Anda.</p>
+                    <h2 class="welcome-title">Selamat Datang di RAIA</h2>
+                    <p class="welcome-subtitle">Reflecting Tomorrow. Konfigurasikan API credentials di panel kiri, pilih model favorit, dan mulailah berinteraksi. <strong>The Symmetry of Intelligence</strong> siap membantu Anda.</p>
                 </div>
             </div>
             <div class="input-area">
                 <form class="input-form" id="chatForm">
-                    <textarea id="promptInput" class="chat-textarea" rows="1" placeholder="Tulis pesan Anda di sini... (Enter kirim, Shift+Enter baris baru)"></textarea>
+                    <textarea id="promptInput" class="chat-textarea" rows="1" placeholder="Tanya Apapun Ke-RAIA (Enter kirim, Shift+Enter baris baru)"></textarea>
                     <button type="submit" class="send-btn" id="sendBtn" title="Kirim (Ctrl+Enter)" aria-label="Kirim pesan">➤</button>
                 </form>
             </div>
@@ -1519,7 +1537,7 @@
     <div class="modal-overlay" id="helpModalOverlay">
         <div class="modal" id="helpModal">
             <button class="close-btn" id="closeHelpModal" aria-label="Tutup modal">✕</button>
-            <h2>📚 Panduan & Bantuan RЯ-AI</h2>
+            <h2>📚 Panduan & Bantuan RAIA</h2>
             <p style="margin-bottom:1rem;">Berikut panduan lengkap mendapatkan API Key untuk setiap provider yang didukung.</p>
             <div id="helpContent"></div>
             <h3 style="margin-top:1.5rem;">⚠️ Keamanan API Key</h3>
@@ -1697,7 +1715,7 @@
 
             function loadState() {
                 try {
-                    const saved = JSON.parse(localStorage.getItem('mai_state_v2') || '{}');
+                    const saved = JSON.parse(localStorage.getItem('raia_state_v1') || '{}');
                     state.theme = saved.theme || 'dark';
                     state.activeProvider = saved.activeProvider || 'OpenRouter';
                     state.activeModel = saved.activeModel || '';
@@ -1737,7 +1755,7 @@
                     currentChatId: state.currentChatId,
                     chats: state.chats
                 };
-                localStorage.setItem('mai_state_v2', JSON.stringify(toSave));
+                localStorage.setItem('raia_state_v1', JSON.stringify(toSave));
             }
 
             // ─────────────────── RESPONSIVE SIDEBAR ───────────────────
@@ -1921,7 +1939,7 @@
                     updateStatusUI();
                     renderChatHistoryList();
                     messagesContainer.innerHTML =
-                        '<div class="welcome-center" id="welcomeScreen"><div class="welcome-icon">✦</div><h2 class="welcome-title">Selamat Datang di Muhaajir AI</h2><p class="welcome-subtitle">Asisten AI modular premium Anda.</p></div>';
+                        '<div class="welcome-center" id="welcomeScreen"><div class="welcome-icon">✦</div><h2 class="welcome-title">Selamat Datang di RAIA</h2><p class="welcome-subtitle">Reflecting Tomorrow. Asisten AI modular premium Anda.</p></div>';
                     saveState();
                     showToast('🔄 Semua data telah direset.', 'success');
                 }
@@ -1997,7 +2015,7 @@
                 wc.className = 'welcome-center';
                 wc.id = 'welcomeScreen';
                 wc.innerHTML =
-                    '<div class="welcome-icon">✦</div><h2 class="welcome-title">Chat Baru Dimulai</h2><p class="welcome-subtitle">Kirim pesan pertama Anda untuk memulai percakapan dengan RЯ-AI.</p>';
+                    '<div class="welcome-icon">✦</div><h2 class="welcome-title">Chat Baru Dimulai</h2><p class="welcome-subtitle">Kirim pesan pertama Anda untuk memulai percakapan dengan RAIA.</p>';
                 messagesContainer.appendChild(wc);
                 closeMobileSidebar();
                 return chat;
@@ -2029,7 +2047,7 @@
                 bubble.className = 'msg-bubble ' + role;
                 const avatar = document.createElement('div');
                 avatar.className = 'msg-avatar';
-                avatar.textContent = role === 'user' ? 'U' : 'M';
+                avatar.textContent = role === 'user' ? 'U' : 'R';
                 const msgContent = document.createElement('div');
                 msgContent.className = 'msg-content';
                 msgContent.innerHTML = renderMarkdown(content);
@@ -2075,7 +2093,7 @@
                 bubble.id = 'typingBubble';
                 const avatar = document.createElement('div');
                 avatar.className = 'msg-avatar';
-                avatar.textContent = 'M';
+                avatar.textContent = 'R';
                 const content = document.createElement('div');
                 content.className = 'msg-content';
                 content.innerHTML =
@@ -2091,26 +2109,156 @@
                 if (tb) tb.remove();
             }
 
-            function simulateAIResponse(userMessage) {
+            // ─────────────────── REAL API CALL ───────────────────
+            async function callProviderAPI(userMessage) {
+                const provider = state.activeProvider;
+                const apiKey = state.apiKey;
+                const model = state.activeModel;
+                const baseUrl = state.baseUrl || providerModels[provider]?.baseUrl || '';
+                const temperature = state.temperature;
+                const maxTokens = state.maxTokens;
+                const topP = state.topP;
+
+                // Build message history for context
+                const chat = getCurrentChat();
+                const history = (chat?.messages || []).filter(m => m.role !== 'system').map(m => ({
+                    role: m.role,
+                    content: m.content
+                }));
+                // Remove last assistant msg if we're regenerating (already removed upstream)
+                // history already reflects current state
+
+                // Build request per provider
+                let url, headers, body;
+
+                if (provider === 'Gemini (Google)') {
+                    // Gemini uses a different endpoint & format
+                    const geminiModel = model || 'gemini-1.5-flash';
+                    url = `${baseUrl}/models/${geminiModel}:generateContent?key=${apiKey}`;
+                    headers = { 'Content-Type': 'application/json' };
+                    const geminiHistory = history.map(m => ({
+                        role: m.role === 'assistant' ? 'model' : 'user',
+                        parts: [{ text: m.content }]
+                    }));
+                    // Gemini doesn't allow consecutive same-role turns; simplify to last user msg if needed
+                    body = JSON.stringify({
+                        contents: geminiHistory.length > 0 ? geminiHistory : [{ role: 'user', parts: [{ text: userMessage }] }],
+                        generationConfig: {
+                            temperature: temperature,
+                            maxOutputTokens: maxTokens,
+                            topP: topP
+                        }
+                    });
+                } else if (provider === 'DeepL') {
+                    // DeepL Translation API — translate last user message
+                    url = `${baseUrl}/translate`;
+                    headers = {
+                        'Content-Type': 'application/json',
+                        'Authorization': `DeepL-Auth-Key ${apiKey}`
+                    };
+                    body = JSON.stringify({
+                        text: [userMessage],
+                        target_lang: 'EN'
+                    });
+                } else if (provider === 'Claude (Anthropic)') {
+                    // Anthropic uses messages API with x-api-key header
+                    url = `${baseUrl}/messages`;
+                    headers = {
+                        'Content-Type': 'application/json',
+                        'x-api-key': apiKey,
+                        'anthropic-version': '2023-06-01',
+                        'anthropic-dangerous-direct-browser-access': 'true'
+                    };
+                    const msgHistory = history.slice(-20); // keep last 20
+                    body = JSON.stringify({
+                        model: model,
+                        max_tokens: maxTokens,
+                        temperature: temperature,
+                        top_p: topP,
+                        messages: msgHistory.length > 0 ? msgHistory : [{ role: 'user', content: userMessage }]
+                    });
+                } else {
+                    // OpenAI-compatible (OpenRouter, OpenAI, Perplexity, xAI/Grok, Mistral, Custom)
+                    url = `${baseUrl}/chat/completions`;
+                    headers = {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiKey}`
+                    };
+                    if (provider === 'OpenRouter') {
+                        headers['HTTP-Referer'] = 'https://hajirmuhaajir.github.io/RAIA';
+                        headers['X-Title'] = 'RAIA';
+                    }
+                    const msgHistory = history.slice(-20);
+                    body = JSON.stringify({
+                        model: model,
+                        temperature: temperature,
+                        max_tokens: maxTokens,
+                        top_p: topP,
+                        messages: msgHistory.length > 0 ? msgHistory : [{ role: 'user', content: userMessage }]
+                    });
+                }
+
+                const response = await fetch(url, { method: 'POST', headers, body });
+
+                if (!response.ok) {
+                    let errMsg = `HTTP ${response.status}`;
+                    try {
+                        const errData = await response.json();
+                        errMsg = errData?.error?.message || errData?.message || errData?.detail || errMsg;
+                    } catch (_) {}
+                    throw new Error(errMsg);
+                }
+
+                const data = await response.json();
+
+                // Parse response per provider
+                if (provider === 'Gemini (Google)') {
+                    return data?.candidates?.[0]?.content?.parts?.[0]?.text || '(Respons kosong dari Gemini)';
+                } else if (provider === 'DeepL') {
+                    const translated = data?.translations?.[0]?.text;
+                    return translated ? `**Terjemahan (DeepL → EN):**\n\n${translated}` : '(Respons kosong dari DeepL)';
+                } else if (provider === 'Claude (Anthropic)') {
+                    return data?.content?.[0]?.text || '(Respons kosong dari Claude)';
+                } else {
+                    return data?.choices?.[0]?.message?.content || '(Respons kosong dari provider)';
+                }
+            }
+
+            async function simulateAIResponse(userMessage) {
                 appendTypingIndicator();
                 state.isLoading = true;
                 sendBtn.disabled = true;
-                const delay = 800 + Math.random() * 1400;
-                setTimeout(() => {
-                    removeTypingIndicator();
-                    state.isLoading = false;
-                    sendBtn.disabled = false;
-                    let response;
-                    if (!state.isConnected) {
-                        response =
-                            `> ⚠️ **Mode Sandbox Aktif**\n>\n> Prompt Anda: *"${userMessage}"* telah diterima. Namun, koneksi API belum dikonfigurasi. Silakan:\n> 1. Pilih **Provider** di panel kiri\n> 2. Masukkan **API Key** yang valid\n> 3. Klik **Connect & Save**\n>\n> Setelah terhubung, RЯ-AI akan merespons melalui pipeline **${state.activeProvider}** dengan model **${state.activeModel || 'terpilih'}**.`;
-                    } else {
-                        response =
-                            `✅ **RЯ-AI Response** (simulasi)\n\nProvider: **${state.activeProvider}**\nModel: **${state.activeModel}**\nTemperature: ${state.temperature} | Max Tokens: ${state.maxTokens} | Top P: ${state.topP}\n\nMenanggapi: *"${userMessage}"*\n\nIni adalah respons simulasi dari Muhaajir AI. Dalam mode produksi, respons akan datang langsung dari API provider yang dikonfigurasi.\n\n\`\`\`javascript\n// Contoh kode\nconst ai = "RЯ-AI";\nconsole.log(\`Halo dari \${ai}!\`);\n\`\`\``;
+
+                try {
+                    if (!state.isConnected || !state.apiKey) {
+                        throw new Error('NOT_CONNECTED');
                     }
+                    const response = await callProviderAPI(userMessage);
+                    removeTypingIndicator();
                     addMessageToChat('assistant', response);
                     appendBubble('assistant', response);
-                }, delay);
+                } catch (err) {
+                    removeTypingIndicator();
+                    let errText;
+                    if (err.message === 'NOT_CONNECTED') {
+                        errText = `> ⚠️ **Belum Terhubung**\n>\n> Konfigurasikan API terlebih dahulu:\n> 1. Pilih **Provider** di panel kiri\n> 2. Masukkan **API Key** yang valid\n> 3. Klik **Connect & Save**`;
+                    } else if (err.message.includes('401') || err.message.toLowerCase().includes('unauthorized') || err.message.toLowerCase().includes('invalid api key')) {
+                        errText = `> ❌ **API Key Tidak Valid**\n>\n> Periksa:\n> • API Key sudah benar dan aktif\n> • Tidak ada spasi atau karakter ekstra\n> • Key memiliki akses ke model **${state.activeModel}**\n> • Cek quota/billing di dashboard provider`;
+                    } else if (err.message.includes('429') || err.message.toLowerCase().includes('rate limit') || err.message.toLowerCase().includes('quota')) {
+                        errText = `> ⏱️ **Rate Limit / Quota Habis**\n>\n> Kemungkinan:\n> • Terlalu banyak request dalam waktu singkat\n> • Quota API harian/bulanan habis\n> • Upgrade plan di dashboard provider`;
+                    } else if (err.message.includes('404') || err.message.toLowerCase().includes('not found')) {
+                        errText = `> 🔍 **Model / Endpoint Tidak Ditemukan**\n>\n> Periksa:\n> • Model ID **${state.activeModel}** sudah benar\n> • Base URL sesuai dengan provider\n> • Provider mendukung model ini`;
+                    } else if (err.name === 'TypeError' || err.message.toLowerCase().includes('failed to fetch') || err.message.toLowerCase().includes('network')) {
+                        errText = `> 🌐 **Koneksi Gagal**\n>\n> Kemungkinan:\n> • Koneksi internet terputus\n> • Base URL tidak valid\n> • CORS tidak diizinkan (coba via OpenRouter)\n> • Provider sedang down`;
+                    } else {
+                        errText = `> ❌ **Error dari ${state.activeProvider}**\n>\n> ${err.message}\n>\n> Cek konfigurasi API atau coba lagi beberapa saat.`;
+                    }
+                    addMessageToChat('assistant', errText);
+                    appendBubble('assistant', errText);
+                } finally {
+                    state.isLoading = false;
+                    sendBtn.disabled = false;
+                }
             }
 
             chatForm.addEventListener('submit', (e) => {
@@ -2182,7 +2330,7 @@
                     wc2.className = 'welcome-center';
                     wc2.id = 'welcomeScreen';
                     wc2.innerHTML =
-                        '<div class="welcome-icon">✦</div><h2 class="welcome-title">Chat Kosong</h2><p class="welcome-subtitle">Kirim pesan untuk memulai.</p>';
+                        '<div class="welcome-icon">✦</div><h2 class="welcome-title">Chat Kosong</h2><p class="welcome-subtitle">Kirim pesan untuk memulai bersama RAIA.</p>';
                     messagesContainer.appendChild(wc2);
                 }
             }
@@ -2196,7 +2344,7 @@
                         loadChatIntoView(state.currentChatId);
                     } else {
                         messagesContainer.innerHTML =
-                            '<div class="welcome-center" id="welcomeScreen"><div class="welcome-icon">✦</div><h2 class="welcome-title">Selamat Datang di Muhaajir AI</h2><p class="welcome-subtitle">Asisten AI modular premium Anda.</p></div>';
+                            '<div class="welcome-center" id="welcomeScreen"><div class="welcome-icon">✦</div><h2 class="welcome-title">Selamat Datang di RAIA</h2><p class="welcome-subtitle">Reflecting Tomorrow. Asisten AI modular premium Anda.</p></div>';
                     }
                 }
                 saveState();
@@ -2315,9 +2463,9 @@
             // ─────────────────── STARTUP ───────────────────
             updateSliderDisplays();
             init();
-            console.log('%c🚀 Muhaajir AI (RЯ-AI) %cReady',
+            console.log('%c✦ RAIA %cReady — Reflecting Tomorrow',
                 'font-size:1.1rem;font-weight:700;color:#3b82f6;', 'color:#94a3b8;');
-            console.log('%cDashboard AI Premium — All Systems Nominal', 'color:#10b981;');
+            console.log('%cThe Symmetry of Intelligence — All Systems Nominal', 'color:#10b981;');
         })();
     </script>
 </body>
